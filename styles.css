@@ -1,0 +1,40 @@
+body {
+  background-color: cornflowerblue;
+  font-family: sans-serif;
+  padding: 50px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+#countries-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+  grid-auto-rows: minmax(300px, 1fr);
+  grid-gap: 10px;
+}
+
+.card {
+  list-style-type: none;
+  background-color: white;
+  border-radius: 3px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.card > img {
+  height: 100px;
+  justify-contents: center;
+  align-items: center;
+}
+
+#search-bar {
+  width: 100%;
+  height: 27px;
+  border-radius: 3px;
+  border: 1px solid white;
+  padding: 5px 10px;
+  font-size: 12px;
+}
