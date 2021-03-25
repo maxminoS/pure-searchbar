@@ -1,0 +1,9 @@
+#+TITLE:Pure Searchbar
+
+A responsive search functionality built purely using HTML, CSS, and vanilla JavaScript.
+
+#+BEGIN_HTML
+<img src="images/search-bar.gif" alt="search bar demo">
+#+END_HTML
+
+This web application pulls a list of countries, including their capitals and flags, from a REST API and displays them in a responsive CSS grid as cards. The search bar can be used to search and filter both countries and capitals.
