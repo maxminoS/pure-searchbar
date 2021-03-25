@@ -19,7 +19,7 @@ const displayList = countries => {
     return `<li class="card">
               <img src="${country.flag}" />
               <hr />
-              <h2>${country.name}</h3>
+              <h2>${country.name}</h2>
               <p><i>${country.capital}</i></p>
             </li>`;
   }).join("");
